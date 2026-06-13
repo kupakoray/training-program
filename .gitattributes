@@ -1,0 +1,5 @@
+# Satır sonlarını her platformda LF'e sabitle.
+# Kabuk script'leri CRLF olursa Linux/cloud sandbox'ta çalışmaz.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
