@@ -1,0 +1,14 @@
+{
+  "//": "Proje kapsamlı MCP sunucuları. Claude Code web bunu repodan okur.",
+  "//token": "GITHUB_TOKEN'ı koda gömme; ortam (environment) değişkeni olarak ver.",
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
