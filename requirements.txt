@@ -1,0 +1,4 @@
+# Çekirdek demo bunlara ihtiyaç DUYMAZ — script'ler standart kütüphane kullanır.
+# İleri analiz/grafik isteyenler için opsiyonel:
+pandas>=2.0
+matplotlib>=3.7

@@ -1,0 +1,14 @@
+{
+  "//": "Bu bir ŞABLON. Kullanmak için .mcp.json olarak kopyalayın.",
+  "//token": "GitHub token'ı koda gömmeyin; ortam değişkeni olarak verin.",
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
