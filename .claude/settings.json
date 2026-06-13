@@ -22,7 +22,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/veri-koruma.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/veri-koruma.sh\""
           }
         ]
       },
@@ -31,7 +31,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/komut-guard.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/komut-guard.sh\""
           }
         ]
       }
@@ -42,7 +42,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/denetim-kaydi.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/denetim-kaydi.sh\""
           }
         ]
       }
